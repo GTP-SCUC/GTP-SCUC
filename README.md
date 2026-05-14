@@ -25,3 +25,5 @@ The codebase requires `Python 3.9+`, `PyTorch 2.1.0`, and `PyTorch Geometric 2.4
 ```bash
 pip install torch torchvision torchaudio
 pip install torch_geometric
+
+## ⚠️ Disclaimer: This repository provides the core architectural implementation to ensure methodological transparency. Full reproduction of the exact baseline results requires access to commercial MILP solvers (e.g., Gurobi) for the LP projection layer and the complete year-long proprietary dataset. For open-source evaluation, we provide the dummy-based evaluation script main_ieee118.py to verify latency claims.
