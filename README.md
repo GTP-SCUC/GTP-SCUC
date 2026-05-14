@@ -25,9 +25,7 @@ The codebase requires `Python 3.9+`, `PyTorch 2.1.0`, and `PyTorch Geometric 2.4
 ```bash
 pip install torch torchvision torchaudio
 pip install torch_geometric
-
-
-
+```
 
 ## ⚠️ Disclaimer
 
